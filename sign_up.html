@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="https://www.onlineupsidc.com/OfficeUsers/images/login.png">
+    <meta charset="UTF-8">
+    <meta name="author" content="B.S.Dinesh">
+    <meta name="description" content="sign up form">
+    <meta name="keywords" content="sign in form">
+    <meta name="copyright" content="copy right @ 2022 B.S.Dinesh">
+    <meta name="view_port" content="wizdth=device-width">
+</head>
+<body id="top">
+    <a href="#down">Go To Down</a>
+<header>
+    <h1>Sign Up Form</h1>
+    <h2>Fill Up This Form</h2>
+</header>
+<hr>
+<main>
+<section>
+<form action="server1.js" method="post" enctype="multipart/form-data">
+<fieldset>
+<legend>Sign Up Form</legend>
+
+<label for="user">User Name : </label><br><br>
+<input type="text" id="user" placeholder="Enter 
+Your Name" name="user" maxlength="15" autofocus
+size="20"><br><br>
+
+<label for="first">First Name : </label><br><br>
+<input type="text" id="first" placeholder="Enter 
+Your First Name" name="first" maxlength="15"
+size="20"><br><br>
+
+<label for="last">Last Name : </label><br><br>
+<input type="text" id="last" placeholder="Enter 
+Your Last Name" name="last" maxlength="15"
+size="20"><br><br>
+
+<label for="mobile">Mobile Number : </label><br><br>
+<input type="number" id="mobile" placeholder="Enter
+Your Mobile Number" name="mobile" maxlength="15"
+size="20"><br><br>
+
+<label for="gmail-id">Gmail-ID : </label><br><br>
+<input type="email" id="gmail-id" placeholder="Enter 
+Your Gmail ID" name="gmail-id" max="15" 
+size="20"><br><br>
+
+<label for="pass">Password : </label><br><br>
+<input type="password" id="pass" placeholder="Enter
+Your Password" name="pass" max="15" size="20"><br><br>
+
+<label for="confirm">Confirm Password : </label><br><br>
+<input type="password" id="confirm" placeholder="Enter
+Your Password Again" name="confirm" max="15" 
+size="20"><br><br>
+
+<label for="age">Age : </label><br><br>
+<input type="number" id="age" placeholder="Enter
+Your Age" name="age" min="1" max="100" 
+size="20"><br><br>
+
+<label for="dob">Date of Birth : </label><br><br>
+<input type="date" id="dob" name="dob" ><br><br>
+
+<label for="gender">Gender : </label><br><br>
+
+<input type="radio" id="male" name="gender_mft"
+value="male">
+<label for="male">Male</label><br><br>
+
+<input type="radio" id="female" name="gender_mft"
+value="female">
+<label for="female">Female</label><br><br>
+
+<input type="radio" id="transender" name="gender_mft"
+value="transender">
+<label for="transender">Transender</label><br><br>
+
+<label for="marital">Marital Status : </label><br><br>
+
+<input type="radio" id="single" name="marital" 
+value="single">
+<label for="single">Single</label>
+
+<input type="radio" id="married" name="marital" 
+value="married">
+<label for="married">Married</label><br><br>
+
+<label for="address">Address : </label><br><br>
+<textarea name="address" id="address" cols="30" rows="10"
+placeholder="Enter Your Address"></textarea><br><br>
+
+<label for="place">Place : </label><br><br>
+<input type="text" id="place" name="place"
+placeholder="Enter Your Place" size="20" 
+maxlength="20"><br><br>
+
+<label for="state">State : </label><br><br>
+<select name="state" id="state">
+    <option value="tamilnadu" selected>Tamil Nadu</option>
+    <option value="hyderabad">Hyderabad</option>
+</select><br><br>
+
+<label for="country">Country : </label><br><br>
+<select name="country" id="country">
+    <option value="india" selected>India</option>
+    <option value="usa">Unites States Of America</option>
+</select><br><br>
+
+<label for="field">Select Your Field : </label><br><br>
+<select name="field" id="field">
+    <option>Select Your Field</option>
+    <optgroup label="Front End Developer">
+        <option value="reactjs">React JS Developer</option>
+        <option value="react">React Developer</option>
+        <option value="angularjs">Angular JS Developer
+        </option>
+        <option value="angular">Angular Developer</option>
+        <option value="vuejs">Vue JS Developer</option>
+        <option value="vue">Vue Developer</option>
+        <option value="ui">UI Designer</option>
+        <option value="ux">UX Designer</option>
+        <option value="uidev">UI Developer</option>
+        <option value="uxdev">UX Developer</option>
+        <option value="webdev">Web Developer</option>
+        <option value="webdes">Web Designer</option>
+        <option value="javascript">Java Script Developer
+        </option>
+        <option value="javascript">Javascript Web Developer
+        </option>
+        <option value="javascript">Javascript Programmer
+        </option>
+        <option value="fed">Front End Designer</option>
+        <option value="fee">Front End Engineer</option>
+    </optgroup>
+    <optgroup label="Back End Developer">
+        <option value="nodejs">Node JS Developer</option>
+        <option value="node">Node Developer</option>
+        <option value="nodejsen">Node JS Engineer</option>
+        <option value="nodeen">Node Engineer</option>
+        <option value="webdev">Web Developer</option>
+        <option value="webpro">Web Programmer</option>
+        <option value="javascript">Java Script Developer
+        </option>
+        <option value="javascript">
+            Java Script Web Developer</option>
+        <option value="bed">Back End Designer</option>
+        <option value="bee">Back End Engineer</option>
+        <option value="java">Java Developer</option>
+        <option value="javap">Java Programmer</option>
+        <option value="springd">Spring Developer</option>
+        <option value="python">Python Developer</option>
+        <option value="pythonp">Python Programmer</option>
+        <option value="django">Django Developer</option>
+        <option value="dotnet">.NET Developer</option>
+        <option value="dotnetp">.NET Programmer</option>
+    </optgroup>
+    <optgroup label="Full Stack Web Developer">
+        <option value="mern">MERN Stack Developer</option>
+        <option value="reactjsfullstack">
+            React JS Full Stack Developer</option>
+        <option value="mern">MERN Stack Enginneer</option>
+        <option value="mean">MEAN Stack Developer</option>
+        <option value="angularjsfullstack">
+            Angular JS Full Stack Developer</option>
+        <option value="mean">MEAN Stack Engineer</option>
+        <option value="mevn">MEVN Stack Developer</option>
+        <option value="mevn">Vue JS Full Stack Developer
+        </option>
+        <option value="mevn">MEVN Stack Enginner</option>
+        <option value="Javascript">Javascript Developer
+        </option>
+        <option value="jsfswd">
+            Javascript Full Stack Web Developer</option>
+        <option value="jsfsd">
+            Javascript Full Stack Developer
+        </option>
+        <option value="webdev">Web Developer</option>
+        <option value="jswd">Javascript Web Developer
+        </option>
+        <option value="jsfse">Full Stack Engineer</option>
+        <option value="javafullstack">
+            Java full stack developer</option>
+        <option value="javafullstackweb">
+            Java Full Stack Web Developer</option>
+        <option value="spring">Spring Full Stack Developer
+        </option>
+        <option value="springfullstackweb">
+            Spring Full Stack Web Developer</option>
+        <option value="pythonfullstack">
+            Python Full Stack Developer</option>
+        <option value="pythonfullstackweb">
+            Pyhton Full Stack Web Developer</option>
+        <option value="django">Django Full Stack Developer
+        </option>
+        <option value="djangofullstackweb">
+            Django Full Stack Web Developer
+        </option>
+        <option value="dotnetfullstack">
+            .NET Full Stack Developer</option>
+        <option value="dotnetfullstackweb">
+            .NET Full Stack Web Developer</option>
+    </optgroup>
+</select><br><br>
+
+<label for="photo">Upload Your Photo : </label><br><br>
+<input type="file" name="photo"><br><br>
+
+<label for="certificates">Upload Your Certificates : 
+</label><br><br>
+<input type="file" name="certificates" id="certificates"
+ multiple><br><br>
+
+<label for="color">Choose Your Favorite Color : </label><br><br>
+<input type="color" name="color"
+id="color"><br><br>
+
+<label for="language">
+    Choose Your Mother Language : </label><br><br>
+<select name="language" id="language">
+    <option>Select Your Mother Language</option>
+    <optgroup label="Mother Language">
+        <option value="tamil">Tamil</option>
+        <option value="english">English</option>
+        <option value="Hindi">Hindi</option>
+        <option value="telungu">Telungu</option>
+        <option value="malayalam">Malayalam</option>
+        <option value="kanadam">Kanadam</option>
+        <option value="odisa">Odisa</option>
+        <option value="french">French</option>
+        <option value="japanish">Japanish</option>
+        <option value="krekam">Krekam</option>
+        <option value="samaskridham">samaskridham
+        </option>
+    </optgroup>
+</select><br><br>
+
+<label for="english">
+    Range Your English Communication Skill : 
+</label><br><br>
+<input type="range" id="english" name="english"
+min="1" max="1000" step="10"><br><br>
+
+<label for="dtl">
+    At What Date & Timing You Available For Discussion : 
+</label><br><br>
+<input type="datetime-local" id="dtl" 
+name="dtl"><br><br>
+
+<label for="mon">
+    What is Your Graduation Month & Year : 
+</label><br><br>
+<input type="month" id="mon" name="mon"><br><br>
+
+<label for="v-week">
+    What Week Would You Like To Start Your Program : 
+</label><br><br>
+<input type="week" id="v-week" name="v-week"><br><br>
+
+<label for="expectation">
+    Can You Give Some Expectation From Us : 
+</label><br><br>
+<input type="text" name="expectataion" id="expectation"
+size="25" maxlength="30" required><br><br>
+
+<input type="checkbox" name="policy[]" value="agree"
+    id="agree">
+    <label for="agree">Agree Privacy policy</label><br><br>
+
+    <input type="reset" name="Reset" value="Reset">
+
+    <input type="submit" name="sign up" value="signup">
+</fieldset>
+</form>
+</section>
+</main>
+<hr>
+<footer id="down">
+    <a href="./index.html" target="_blank">
+        Already have an account? Sign in
+    </a>
+    <br><br>
+    <a href="#top">Go To Top</a>
+</footer>
+</body>
+</html>
